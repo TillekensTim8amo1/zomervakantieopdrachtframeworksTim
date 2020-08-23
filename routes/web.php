@@ -15,3 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/hello', function(){
+    $variable = 'Hello from Routes.';
+
+    return view('subviews.hello');
+});
