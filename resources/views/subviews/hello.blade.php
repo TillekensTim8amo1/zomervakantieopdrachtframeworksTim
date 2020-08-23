@@ -1,2 +1,2 @@
-<h1>{{ $someData }}</h1>
+<h1>{{ $coolString }}</h1>
 <p>learning laravel</p>
